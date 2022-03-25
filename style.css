@@ -1,3 +1,7 @@
+xtml{
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -327,7 +331,10 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    background: rgb(255, 255, 255) !important;
+    border: none !important;
 }
+
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
@@ -781,6 +788,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
+    width: 150px;
     background: #F3976C;
     color: #FFFFFF!important;
 }
@@ -1145,4 +1153,40 @@ h4 {
 .image-logo{
     height: 120px;
     width: auto;
+}
+
+/* NAVIGATION */
+
+.navigation-bouton{
+    font-family: "helvetica";
+    font-weight: 400;
+    color: black !important;
+    font-size: 18px;
+    text-align: center;
+}
+
+.navigation-bouton:hover{
+    color: #F3976C !important;
+}
+
+/* CONTACT */
+
+.form-group{
+    width: 100%;
+    font-family: "helvetica";
+    font-weight: 400;
+    color: black !important;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: left;
+}
+
+.adresse-contact{
+    font-family: "helvetica";
+    font-weight: 600;
+    color: black !important;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    padding: 50px 20px 50px 20px;
 }
